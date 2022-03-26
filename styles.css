@@ -39,7 +39,7 @@ body {
     border-radius: 1vmin;
     font-weight: bold;
     top: calc(var(--y) * (var(--cell-size) + var(--cell-gap)) + var(--cell-gap));
-    left: calc(var(--y) * (var(--cell-size) + var(--cell-gap)) + var(--cell-gap));
+    left: calc(var(--x) * (var(--cell-size) + var(--cell-gap)) + var(--cell-gap)); /*:D*/
     background-color: hsl(200, 50%, var(--background-lightness));
     color: hsl(200, 25%, var(--text-lightness));
 
